@@ -2,7 +2,7 @@
 
 <br>
 
-![](https://raw.githubusercontent.com/Matthewpco/WP-Plugin-Include-Extra-Scripts/main/include-extra-scripts-screenshot.png)
+![](https://github.com/Matthewpco/WP-Plugin-Hero-Image-Slider/blob/main/hero-image-slider-1.png?raw=true)
 
 <br>
 
@@ -20,4 +20,4 @@
 - PHP
 - WordPress Plugin
 
-![](https://raw.githubusercontent.com/Matthewpco/WP-Plugin-Include-Extra-Scripts/main/include-extra-scripts-screenshot.png)
+![](https://github.com/Matthewpco/WP-Plugin-Hero-Image-Slider/blob/main/hero-image-slider-2.png?raw=true)
