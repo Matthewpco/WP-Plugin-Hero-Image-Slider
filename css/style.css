@@ -1,0 +1,83 @@
+.hero-image-slider {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+.hero-image-slide {
+    display: none;
+    width: 100%;
+}
+
+.hero-image-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-image-title {
+    position: absolute;
+    color: #fff;
+	font-size: 3rem;
+	text-transform: uppercase;
+	font-family: 'Graphik';
+    bottom: 0%;
+    right: 20%;
+    border-radius: 50% 50% 0 0;
+    background-color: rgba(3, 69, 173, .6);
+    padding: 32px 48px;
+    transition: background-color 0.5s;
+}
+
+.hero-image-title:hover {
+    background-color: #0345ad;
+}
+
+.hero-image-slider button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    padding: 12px 16px;
+    border: none;
+    color: #fff;
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+
+.hero-image-slider .prev {
+    left: 25%;
+}
+
+.hero-image-slider .next {
+    right: 25%;
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(90%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideRight {
+    from {
+        transform: translateX(-90%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.slide-left {
+    animation-name: slideLeft;
+    animation-duration: 1s;
+}
+
+.slide-right {
+    animation-name: slideRight;
+    animation-duration: 1s;
+}
